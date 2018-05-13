@@ -1,8 +1,4 @@
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .bg-1 {
        background-color: #1abc9c; /* Green */
@@ -19,6 +15,9 @@
 	.bg-3 {
       background-color: #ffffff; /* White */
       color: #555555;
+      margin: 0 auto;
+    float: none;
+
 
   }
 
@@ -52,7 +51,3 @@
 .navbar-nav li a:hover {
 	color: #1abc9c !important;
 }
-
-#comment {
-        max-width: 100%;
-    }
