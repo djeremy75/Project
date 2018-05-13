@@ -84,9 +84,14 @@
 	</div>
 
 <div class="container-fluid bg-3 text-center">
-	<div class="row">
-  <label for="comment">Leave a Comment:</label>
-  <textarea class="form-control col-md-2" rows="3"  id="comment"></textarea>
+  <div class="row">
+      <div class="col-md-2 col-md-offset-5">
+          <div class="form-group">
+              <label for="form_name">Leave a Comment:</label>
+              <input id="form_name" type="text" name="name" class="form-control" placeholder="What's your comment?" required="required" data-error="Leave a comment!">
+              <div class="help-block with-errors"></div>
+          </div>
+      </div>
 </div>
 
 </div>
