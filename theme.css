@@ -6,14 +6,26 @@
 		background-color: #474e5d; /* Dark Blue */
       color: #ffffff;
 	}
+	
+	.bg-2 .row {
+		
+	}
 	.bg-3 { 
       background-color: #ffffff; /* White */
-      color: #555555;\
+      color: #555555;
 	  
   }
   
+	.bg-3 img {
+		padding: 3em;
+	}
+  
 	.bg-3 h3 {
 		padding: 2em;
+	}
+
+	.bg-3 .form-group {
+		width: 500px;
 	}
   
  .bg-4 {
